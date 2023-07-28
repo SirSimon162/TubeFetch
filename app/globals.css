@@ -15,3 +15,9 @@ body {
 .custom-icon {
   background-image: linear-gradient(303deg, #FFAA59 0%, #D65DC3 53.65%, #6D6AF5 100%);
 }
+
+.border-gradient {
+    border: 2px solid;
+    border-image: linear-gradient(303deg, #FFAA59 0%, #D65DC3 53.65%, #6D6AF5 100%);
+    border-image-slice: 1;
+}

@@ -16,10 +16,10 @@ function NavBar() {
           <Link href="/" className="text-white font-bold">
             Home
           </Link>
-          <a href="" className="text-white font-bold">
+          <a href="#About" className="text-white font-bold">
             About
           </a>
-          <a href="" className="text-white font-bold">
+          <a href="#Contributors" className="text-white font-bold">
             Contributors
           </a>
           <a
@@ -53,7 +53,7 @@ function NavBar() {
         <div
           className={`${
             isMobileMenuOpen ? "block" : "hidden"
-          } md:hidden absolute top-20 left-0 right-0 z-30 h-screen flex flex-col items-center`}
+          } md:hidden absolute top-20 left-0 right-0 z-30 h-screen flex flex-col items-center bg-[#08132fbd]`}
         >
           <div className="flex flex-col items-center gap-y-9 pt-12">
             <Link
@@ -63,10 +63,10 @@ function NavBar() {
             >
               Home
             </Link>
-            <a href="" className="block text-white font-bold">
+            <a href="#About" className="block text-white font-bold">
               About
             </a>
-            <a href="" className="block text-white font-bold">
+            <a href="#contributors" className="block text-white font-bold">
               Contributors
             </a>
             <a
