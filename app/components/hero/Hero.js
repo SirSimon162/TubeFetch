@@ -9,7 +9,7 @@ function Hero() {
         alt="Background"
         width="800"
         height="800"
-        className="-z-10 absolute blur-md"
+        className="-z-10 absolute blur-md w-auto h-auto"
       />
       <div className="w-full overlay bg-black text-white z-10 bg-opacity-60 flex flex-col items-center py-20">
       <Image
