@@ -9,7 +9,7 @@ function About() {
         </span>
       </div>
       <div className="flex flex-col sm:flex-row justify-center items-center sm:items-start gap-10 mt-6 sm:mt-10 px-5">
-        <div className="w-[80%] sm:max-w-[550px] text-center sm:text-left text-white">
+        <div className="w-[90%] sm:max-w-[550px] text-center sm:text-left text-white">
           <p>
             TubeFetch is a platform where you can enjoy YouTube videos without
             the clutter of advertisements and unrelated recommendations,
