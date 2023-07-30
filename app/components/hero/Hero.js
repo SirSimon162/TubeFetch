@@ -1,5 +1,5 @@
-import React from "react";
 import Image from "next/image";
+import Search from "../videos/Search";
 
 function Hero() {
   return (
@@ -12,27 +12,27 @@ function Hero() {
         className="-z-10 absolute blur-md w-auto h-auto"
       />
       <div className="w-full overlay bg-black text-white z-10 bg-opacity-60 flex flex-col items-center py-20">
-      <Image
-        src="/yt1.png"
-        alt="Background"
-        width="50"
-        height="50"
-        className="absolute top-[300px] left-[130px] hidden md:block"
-      />
-      <Image
-        src="/yt2.png"
-        alt="Background"
-        width="50"
-        height="50"
-        className="absolute top-[500px] right-[130px] hidden md:block"
-      />
-      <Image
-        src="/yt3.png"
-        alt="Background"
-        width="50"
-        height="50"
-        className="absolute top-[200px] right-[50px] hidden md:block"
-      />
+        <Image
+          src="/yt1.png"
+          alt="Background"
+          width="50"
+          height="50"
+          className="absolute top-[300px] left-[130px] hidden md:block"
+        />
+        <Image
+          src="/yt2.png"
+          alt="Background"
+          width="50"
+          height="50"
+          className="absolute top-[500px] right-[130px] hidden md:block"
+        />
+        <Image
+          src="/yt3.png"
+          alt="Background"
+          width="50"
+          height="50"
+          className="absolute top-[200px] right-[50px] hidden md:block"
+        />
         <div className="flex items-center justify-end">
           <p className="inline font-extrabold text-[40px] sm:text-[70px] custom-gradient-text">
             <span className="border-b-4 border-white px-1">YouTube</span> Video
@@ -55,18 +55,8 @@ function Hero() {
           />
           <p>Player</p>
         </div>
-        <div className="flex items-center justify-end bg-black bg-opacity-20 p-1 sm:p-2 min-w-[310px] sm:min-w-[500px] w-[60%] sm:w-[45%] border-gradient overflow-hidden">
-          <input
-            type="text"
-            className="w-full focus:outline-none focus:border-opacity-0 bg-transparent"
-            placeholder="Search..."
-          />
-          <button
-            type="button"
-            className="bg-gradient-to-r from-purple-600 to-yellow-600 text-white font-bold px-4 sm:px-6 py-1"
-          >
-            Search
-          </button>
+        <div className="flex items-center justify-end min-w-[310px] sm:min-w-[500px] w-[60%] sm:w-[45%]">
+          <Search/>
           <Image
             src="/arrow3.png"
             alt="arrow"
