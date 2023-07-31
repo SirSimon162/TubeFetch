@@ -16,10 +16,10 @@ function NavBar() {
           <Link href="/" className="text-white font-bold">
             Home
           </Link>
-          <a href="#About" className="text-white font-bold">
+          <a href="/#About" className="text-white font-bold">
             About
           </a>
-          <a href="#Contributors" className="text-white font-bold">
+          <a href="/#Contributors" className="text-white font-bold">
             Contributors
           </a>
           <a

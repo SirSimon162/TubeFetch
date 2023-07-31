@@ -21,3 +21,21 @@ body {
     border-image: linear-gradient(303deg, #FFAA59 0%, #D65DC3 53.65%, #6D6AF5 100%);
     border-image-slice: 1;
 }
+
+.player-wrapper {
+  position: relative;
+  padding-top: 56.25%;
+  width: 100%;
+}
+
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .player-wrapper {
+    padding-top: 75%;
+  }
+}

@@ -2,7 +2,6 @@
 import Hero from "./components/hero/Hero"
 import About from "./components/about/About"
 import Contributors from "./components/contributors/Contributors"
-import Footer from "./components/marginals/Footer"
 
 export default function Home() {
   return (
@@ -10,7 +9,6 @@ export default function Home() {
       <Hero/>
       <About/>
       <Contributors/>
-      <Footer/>
     </main>
   )
 }
