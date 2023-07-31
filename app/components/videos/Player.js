@@ -29,7 +29,7 @@ function Player() {
   }
 
   return (
-    <div className="flex flex-col justify-center items-center mt-5 w-[50%]">
+    <div className="flex flex-col justify-center items-start mt-5 w-[50%]">
       <div className="player-wrapper">
         <ReactPlayer
           className="react-player"
